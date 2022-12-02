@@ -1,0 +1,12 @@
+public class Batch {
+    public string name;
+    public List<String> students = new List<String>();
+	
+    public void addStudent(String student){
+        students.add(student);    
+    }
+    
+    public void show(){
+        system.debug(name + '-->' +students);
+    }
+}
